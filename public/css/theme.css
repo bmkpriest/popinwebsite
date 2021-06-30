@@ -101,7 +101,9 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
-
+html, body {
+  overflow-x: hidden;
+}
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -110,7 +112,8 @@ body {
   line-height: 1.5;
   color: #6d768b;
   text-align: left;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  position: relative;}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
